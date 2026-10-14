@@ -1,0 +1,34 @@
+.navbar {
+  position: sticky;
+  top: 1vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 16px;
+  background: rgba(30, 10, 60, 0.116);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 20px 20px;
+  z-index: 20;
+}
+
+.navbar section {
+  
+  width: 100%;
+  
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #c9b3ff;
+  transition: 0.3s;
+  scroll-behavior: smooth;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}

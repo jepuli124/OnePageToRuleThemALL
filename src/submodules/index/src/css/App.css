@@ -1,0 +1,11 @@
+.app {
+  font-family: "Inter", sans-serif;
+  color: #eee;
+  background: #0d021f;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 40px;
+}

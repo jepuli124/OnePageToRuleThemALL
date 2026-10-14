@@ -1,0 +1,29 @@
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #e0c3ff;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #7b2ff7, #9b6bff);
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+}

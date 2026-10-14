@@ -1,0 +1,20 @@
+.about {
+  background: #14052d;
+  padding: 40px;
+  border-radius: 24px;
+}
+
+.about h2 {
+  color: #d6b3ff;
+}
+
+.cv-box {
+  margin-top: 20px;
+  background: #1c083f;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.cv-box ul {
+  margin-top: 10px;
+}

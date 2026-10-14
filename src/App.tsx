@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from './submodules/jepuli124.github.io/src/App'
+import Index from './submodules/index/src/App'
+import Invitation from './submodules/invitation/src/App'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index></Index>} />
-          <Route path="/about" element={<></>} />
+          <Route path="/invitation" element={<Invitation></Invitation>} />
           <Route path="/projects" element={<></>} />
         </Routes>
       </BrowserRouter>
