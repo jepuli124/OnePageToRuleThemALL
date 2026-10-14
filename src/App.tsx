@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css'
+import Index from './submodules/jepuli124.github.io/src/App'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<></>} />
+          <Route path="/" element={<Index></Index>} />
           <Route path="/about" element={<></>} />
           <Route path="/projects" element={<></>} />
         </Routes>
